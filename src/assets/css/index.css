@@ -59,3 +59,18 @@ header {
   width: 5rem;
   padding: 10px 0px;
 }
+
+/* MAIN  */
+
+.contentadd {
+  color: white;
+  padding: 50px;
+}
+
+/* Shopbandle */
+
+#bandle {
+  background-color: blue;
+  color: white;
+  height: 50px;
+}
