@@ -2,12 +2,12 @@ export default function Header() {
   return (
     <header>
       <div className="container">
-        <div className="col-30">
+        <div className="header-left">
           <figure>
             <img src="public\dc-logo.png" alt="logo header" />
           </figure>
         </div>
-        <div className="col-70">
+        <div className="header-right">
           <ul>
             <li>
               <a href="#">CHARACTERS</a>
