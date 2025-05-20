@@ -70,7 +70,30 @@ header {
 /* Shopbandle */
 
 #bandle {
-  background-color: blue;
+  background-color: #0282f9;
   color: white;
-  height: 50px;
+}
+
+#bandle .container {
+  justify-content: space-evenly;
+}
+#bandle .container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 30px;
+  font-size: 0.6rem;
+}
+
+#bandle .container ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#bandle .container ul img {
+  width: 40px;
+  padding-right: 10px;
 }
