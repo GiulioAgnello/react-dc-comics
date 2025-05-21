@@ -114,7 +114,16 @@ export default function Footer() {
                 <a href="">SIGN-UP NOW!</a>
               </button>
             </div>
-            <div className="footer-right">immgini</div>
+            <div className="footer-right">
+              <h4 className="follow">
+                <a href="#">FOLLOW US</a>
+              </h4>
+              <img src="footer-facebook.png" alt="facebook" />
+              <img src="footer-periscope.png" alt="periscope" />
+              <img src="footer-pinterest.png" alt="pinterest" />
+              <img src="footer-twitter.png" alt="twitter" />
+              <img src="footer-youtube.png" alt="youtube" />
+            </div>
           </div>
         </div>
       </div>
