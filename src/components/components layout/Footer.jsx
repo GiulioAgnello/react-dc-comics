@@ -110,7 +110,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <div className="container">
             <div className="footer-left">
-              <button>
+              <button className="singup">
                 <a href="">SIGN-UP NOW!</a>
               </button>
             </div>

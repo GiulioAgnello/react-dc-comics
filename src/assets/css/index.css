@@ -35,10 +35,25 @@ img {
 body {
   background-color: black;
 }
+/* alert */
+
+.alertbt {
+  color: red;
+  padding: 10px;
+  background-color: rgba(248, 0, 0, 0.264);
+  border: red 2px solid;
+  border-radius: 1rem;
+}
+
+.alertbt.alertc-black {
+  color: rgb(0, 0, 0);
+  border: rgb(255, 255, 255) 2px solid;
+  background-color: rgb(255, 255, 255);
+}
 
 /* button  */
 
-button {
+.singup {
   border-color: #0282f9;
   padding: 10px;
   background-color: transparent;
@@ -46,7 +61,7 @@ button {
   margin: 20px 0px;
 }
 
-button a {
+.singup a {
   color: white;
 }
 

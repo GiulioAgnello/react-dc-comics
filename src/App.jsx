@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Shopbandle from "./components/shopbandle";
-import Footer from "./components/Footer";
+import Header from "./components/components layout/Header";
+import Main from "./components/components layout/Main";
+import Shopbandle from "./components/components layout/shopbandle";
+import Footer from "./components/components layout/Footer";
 
 export default function App() {
   return (
