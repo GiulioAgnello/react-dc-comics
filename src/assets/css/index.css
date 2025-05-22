@@ -26,6 +26,14 @@ a {
   align-items: center;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
 img {
   width: 100%;
 }
@@ -34,6 +42,15 @@ img {
 
 body {
   background-color: black;
+}
+
+[class*="col"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-1-6 {
+  width: calc(100% / 6);
 }
 /* alert */
 
@@ -69,7 +86,6 @@ body {
 
 header {
   background-color: white;
-  margin-top: 50px;
 }
 
 .header-right ul {
@@ -90,6 +106,15 @@ header {
 }
 
 /* MAIN  */
+
+/* Jumbotron  */
+
+.jumbotron img {
+  object-fit: cover;
+  object-position: top;
+  max-height: 300px;
+}
+/* Jumbotron  */
 
 .contentadd {
   color: white;

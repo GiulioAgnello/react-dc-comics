@@ -1,11 +1,20 @@
-import Alert from "../component_variable/Alert";
+// IMPORT
+
+// import Alert from "../component_variable/Alert";
+import Jumbotron from "../component_variable/jumbotron";
+import Library from "../component_variable/Libraries/library";
+
+// EXPORT
 export default function Main() {
   return (
-    <div className="container">
-      <h2 className="contentadd"> --&gt; content goes here &lt;--</h2>
-      <Alert type="black">
+    <>
+      <Jumbotron />
+      <div className="container">
+        <Library />
+        {/* <Alert type="black">
         <p>Lorem, ipsum dolor.</p>
-      </Alert>
-    </div>
+      </Alert> */}
+      </div>
+    </>
   );
 }
