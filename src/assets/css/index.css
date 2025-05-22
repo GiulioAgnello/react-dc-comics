@@ -107,6 +107,10 @@ header {
 
 /* MAIN  */
 
+main {
+  background-color: #924d4d;
+}
+
 /* Jumbotron  */
 
 .jumbotron img {

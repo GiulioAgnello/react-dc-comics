@@ -9,12 +9,14 @@ export default function Main() {
   return (
     <>
       <Jumbotron />
+      <button>Load more</button>
       <div className="container">
         <Library />
         {/* <Alert type="black">
         <p>Lorem, ipsum dolor.</p>
       </Alert> */}
       </div>
+      <button>Load more</button>
     </>
   );
 }
