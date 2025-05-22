@@ -82,6 +82,43 @@ body {
   color: white;
 }
 
+#loadbt {
+  background-color: #0282f9;
+  border: 1px solid #0282f9;
+  padding: 5px 50px;
+}
+
+#series {
+  background-color: #0282f9;
+  border: 1px solid #0282f9;
+  padding: 5px 20px;
+}
+
+#series a {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#loadbt a {
+  color: rgb(255, 255, 255);
+  font-size: 0.6rem;
+}
+
+.buttonholder {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#librarycontainer {
+  position: relative;
+}
+
+.buttonseries {
+  position: absolute;
+  top: -15px;
+  left: 3px;
+}
+
 /* HEADER  */
 
 header {

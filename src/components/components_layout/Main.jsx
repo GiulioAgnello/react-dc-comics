@@ -9,14 +9,23 @@ export default function Main() {
   return (
     <>
       <Jumbotron />
-      <button>Load more</button>
-      <div className="container">
+
+      <div id="librarycontainer" className="container">
+        <div className="buttonseries">
+          <button id="series">
+            <a href="#">CURRENT SERIES</a>
+          </button>
+        </div>
         <Library />
         {/* <Alert type="black">
         <p>Lorem, ipsum dolor.</p>
       </Alert> */}
       </div>
-      <button>Load more</button>
+      <div className="buttonholder">
+        <button id="loadbt">
+          <a href="#">LOAD MORE</a>
+        </button>
+      </div>
     </>
   );
 }
