@@ -1,4 +1,4 @@
-import Alert from "../component variable/Alert";
+import Alert from "../component_variable/Alert";
 export default function Main() {
   return (
     <div className="container">
