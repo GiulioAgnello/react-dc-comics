@@ -205,12 +205,11 @@ main {
 }
 #bandle .container ul {
   display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 50px;
   padding: 30px;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 #bandle .container ul li {
