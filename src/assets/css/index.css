@@ -118,6 +118,14 @@ header {
 
 /* library */
 
+#librarybandle {
+  padding: 30px 0px;
+}
+
+.topcard {
+  height: 50%;
+}
+
 .topcard img {
   width: 100%;
 }
