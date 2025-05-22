@@ -116,6 +116,18 @@ header {
 }
 /* Jumbotron  */
 
+/* library */
+
+.topcard img {
+  width: 100%;
+}
+
+.bottomcard {
+  color: white;
+}
+
+/* library */
+
 .contentadd {
   color: white;
   padding: 50px;

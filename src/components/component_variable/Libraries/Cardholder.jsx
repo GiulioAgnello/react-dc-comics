@@ -1,6 +1,6 @@
 // EXPORT
 
-export default function Cardholder({ image, title }) {
+export default function Cardholder({ image, series }) {
   return (
     <>
       <div className="col-1-6" key="">
@@ -8,7 +8,7 @@ export default function Cardholder({ image, title }) {
           <img src={image} alt="" />
         </div>
         <div className="bottomcard">
-          <h5>{title}</h5>
+          <h5>{series}</h5>
         </div>
       </div>
     </>
